@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { UserStorage } from '@/lib/storage';
-import type { User, UserRole, Language } from '@/types';
+import { User, UserRole, Language } from '@/types';
 
 export function useUser() {
   const [user, setUser] = useState<User | null>(null);

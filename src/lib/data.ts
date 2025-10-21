@@ -8,6 +8,8 @@ import type {
   LabTranslation,
   Achievement,
   AchievementTranslation,
+} from '@/types';
+import {
   Difficulty,
   Language,
   AchievementType,
