@@ -44,34 +44,22 @@ A modern, full-stack cybersecurity education platform built with Next.js 14, fea
 
 1. **Clone and install**:
 ```bash
-git clone <repository-url>
-cd cybersecurity-learning-platform
+git clone https://github.com/xtrafr/penteset-website.git
+cd penteset-website
 npm install
 ```
 
-2. **Set up environment**:
-```bash
-cp .env.example .env.local
-# Add your environment variables
-```
-
-3. **Set up database**:
-```bash
-npm run db:generate
-npm run db:push
-```
-
-4. **Start development server**:
+2. **Start development server**:
 ```bash
 npm run dev
 ```
 
-5. **Open**: http://localhost:3000
+3. **Open**: http://localhost:3000
 
 ### Deploy to Vercel
 
 1. **One-click deploy**:
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/cybersecurity-learning-platform)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/xtrafr/penteset-website)
 
 2. **Manual deployment**:
 ```bash
@@ -79,10 +67,7 @@ npm install -g vercel
 vercel
 ```
 
-3. **Set up databases**:
-   - Add Vercel Postgres database
-   - Add Vercel KV store
-   - Configure environment variables
+3. **No database setup needed** - Uses local storage and cookies!
 
 ## 📁 Project Structure
 
